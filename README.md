@@ -4,6 +4,8 @@ before usage, install unidic properly after installing requirements with `python
 
 usage:
 
+clone repository by either using git or downloading the zip
+
 install requirements with `pip install -r requirements.txt`
 
 install unidic with `python -m unidic download`, this is around 500MB
