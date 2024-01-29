@@ -37,7 +37,7 @@ async def process_and_write(file_name, directory):
     processed_texts = await asyncio.gather(*coroutines)
 
     output_file = f'output_{file_name}.txt'
-    with open(output_file, 'w') as file:
+    with open(output_file, 'w', encoding="utf-8") as file:
         for result, translated_result, processed_text in zip(results, translated_results, processed_texts):
             file.write(f"{result}\n")
             file.write(f"{await get_romaji(result)}\n")
