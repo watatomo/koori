@@ -1,11 +1,8 @@
 numpy
 asyncio
-aiohttp
-cutlet
 opencv-python
 scikit-learn
-jisho_api
 mokuro
 manga_ocr
-fugashi[unidic]
+fugashi
 pillow
