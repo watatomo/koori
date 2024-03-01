@@ -1,6 +1,6 @@
 # Koori
 
-A fork of [Yuki](https://github.com/c-sig/yuki) which is in turn a fork of [Mokuro](https://github.com/kha-white/mokuro). Outputs just the Japanese text.
+A fork of [Yuki](https://github.com/c-sig/yuki) which is in turn a fork of [Mokuro](https://github.com/kha-white/mokuro). Automatically OCRs manga pages and outputs the results to TXT file.
 
 Requires Python 3.10.
 
@@ -12,9 +12,12 @@ Requires Python 3.10.
 4. Run `main.py` with `python main.py`
    put images in images directory
 
-The outputs will have the same name as the pages and will be exported to the directory where `main.py` is run.
+The outputs will have the same name as the pages and will be exported in the `text` folder. There is also a file named `combined_text.txt` that combines all the outputs into one with page headers.
+
+> [!NOTE]
+> Remember that the OCR is not 100% accurate and you will still need to manually correct mistakes. This simply exists to speed up the process.
 
 ## To-do
 
--   [ ] Combine all the outputs into a single file, with headers signifying which sections are from
--   [ ] Have the OCR follow the text in "reading order"
+-   [x] Combine all the outputs into a single file, with headers signifying which sections are from
+-   [ ] Have the OCR follow the text in "reading order" (This is probably complicated as hell to do, so it's just here as an "idea" of sorts.)
