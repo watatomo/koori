@@ -1,6 +1,6 @@
 # Koori
 
-A fork of [Yuki](https://github.com/c-sig/yuki) which is in turn a fork of [Mokuro](https://github.com/kha-white/mokuro). Automatically OCRs manga pages and outputs the results to TXT file.
+A fork of [Yuki](https://github.com/c-sig/yuki) which is in turn a fork of [Mokuro](https://github.com/kha-white/mokuro). Automatically OCRs manga pages and outputs the results to a TXT file.
 
 Requires Python 3.10.
 
