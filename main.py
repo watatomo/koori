@@ -28,7 +28,9 @@ async def process_and_write(file_name, directory):
         file.write(f"## {os.path.splitext(file_name)[0]}\n")
         file.writelines(
             normalize_fullwidth_chars(line)
+            .replace(".....", "……")
             .replace("...", "…")
+            .replace(":・", "…")  # sometimes ocr mistakes ellipses for these
             .replace("!", "！")
             .replace("?", "？")
             .replace("―", "ー")

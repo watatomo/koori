@@ -151,3 +151,10 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# text and images
+*.txt
+*.md
+*.png
+*.jpg
+*.jpeg
