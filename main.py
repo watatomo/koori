@@ -31,6 +31,8 @@ async def process_and_write(file_name, directory):
             .replace(".....", "……")
             .replace("...", "…")
             .replace(":・", "…")  # sometimes ocr mistakes ellipses for these
+            .replace("::", "…")
+            .replace("..", "…")
             .replace("!", "！")
             .replace("?", "？")
             .replace("―", "ー")
