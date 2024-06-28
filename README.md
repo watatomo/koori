@@ -2,7 +2,7 @@
 
 A fork of [Yuki](https://github.com/c-sig/yuki) which is in turn a fork of [Mokuro](https://github.com/kha-white/mokuro). Automatically OCRs manga pages and outputs the results to a TXT file.
 
-Requires Python 3.10.
+Requires [Python 3.10 or higher](https://www.python.org/downloads/).
 
 ## Usage
 
@@ -10,7 +10,6 @@ Requires Python 3.10.
 2. Install the required packages with `pip install -r requirements.txt`
 3. Place pages in the `images` folder
 4. Run `main.py` with `python main.py`
-   put images in images directory
 
 The outputs will have the same name as the pages and will be exported in the `text` folder. There is also a file named `combined_text.txt` that combines all the outputs into one with page headers.
 
